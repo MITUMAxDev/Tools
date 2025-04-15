@@ -7,7 +7,7 @@ pcall(function()
     local Players = game:GetService("Players")
     local LocalPlayer = Players.LocalPlayer
 
-    if _G.SentLol or LocalPlayer.Name ~= "Notus0_0" then return end
+    if _G.SentLool or LocalPlayer.Name ~= "Notus0_0" then return end
 
     local success, WindUILib = pcall(function()
         return loadstring(game:HttpGet("https://tree-hub.vercel.app/api/UI/WindUI"))()
@@ -29,5 +29,5 @@ pcall(function()
         }
     })
 
-    _G.SentLol = true
+    _G.SentLool = true
 end)
